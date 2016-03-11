@@ -1,0 +1,60 @@
+{
+	"name":"bugbuster/contao-grid_16-bundle",
+	"description":"Adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework for Contao 4.",
+	"keywords":["contao","grid","responsive"],
+	"type":"contao-module",
+	"homepage":"http://contao.ninja",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Glen Langer",
+			"homepage":"http://contao.ninja",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/BugBuster1701/contao-grid_16-bundle/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/BugBuster1701/contao-grid_16-bundle",
+		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
+	},
+	"require":{
+		"php":">=5.4",
+		"contao/core-bundle": "~4.1",
+		"contao-community-alliance/composer-plugin": "~3.0"
+	},
+	"conflict": {
+		"contao/core": "*"
+	},
+	"autoload":{
+		"psr-4": {
+			"BugBuster\\Grid16Bundle\\": "src/"
+		}
+	},
+	"replace":{
+		"contao-legacy/grid_16_columns":"*"
+	},
+	"extra":{
+		"branch-alias": {
+			"dev-develop": "1.0.x-dev"
+		},
+		"contao":{
+			"sources":{
+				"assets/contao/css/grid-1120-16-pixel-responsive.css": "assets/contao/css/grid-1120-16-pixel-responsive.css",
+				"assets/contao/css/grid-1120-16-pixel-responsive.min.css": "assets/contao/css/grid-1120-16-pixel-responsive.min.css",
+				"assets/contao/css/grid-1120-16-pixel.css": "assets/contao/css/grid-1120-16-pixel.css",
+				"assets/contao/css/grid-1120-16-pixel.min.css": "assets/contao/css/grid-1120-16-pixel.min.css",
+				"assets/contao/css/grid-1140-16-percent-responsive.css": "assets/contao/css/grid-1140-16-percent-responsive.css",
+				"assets/contao/css/grid-1140-16-percent-responsive.min.css": "assets/contao/css/grid-1140-16-percent-responsive.min.css",
+				"assets/contao/css/grid-1140-16-percent.css": "assets/contao/css/grid-1140-16-percent.css",
+				"assets/contao/css/grid-1140-16-percent.min.css": "assets/contao/css/grid-1140-16-percent.min.css"
+			},
+			"transifex": {
+				"project": "contao-grid_16-bundle",
+				"prefix": "master-",
+				"languages_cto": "src/Resources/contao/languages",
+				"languages_tx": ".tx"
+			}
+		}
+	}
+}
