@@ -23,3 +23,11 @@ Nun noch den Cache löschen und neu aufbauen:
 `app/console cache:clear --env=prod`
 
 `app/console cache:warmup -e prod`
+
+<!--
+## remove alte develop4 version
+vi app/AppKernel.php -> Zeile löschen: 
+   new ContaoModuleBundle('grid_16_columns', $this->getRootDir()),
+composer remove bugbuster/contao_grid_16_columns
+
+-->
