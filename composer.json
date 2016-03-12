@@ -50,7 +50,7 @@
 				"assets/contao/css/grid-1140-16-percent.min.css": "assets/contao/css/grid-1140-16-percent.min.css"
 			},
 			"transifex": {
-				"project": "contao-grid_16-bundle",
+				"project": "contao-4-grid-16-columns-bundle",
 				"prefix": "master-",
 				"languages_cto": "src/Resources/contao/languages",
 				"languages_tx": ".tx"
