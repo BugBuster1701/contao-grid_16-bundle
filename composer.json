@@ -32,7 +32,7 @@
 		}
 	},
 	"replace":{
-		"contao-legacy/grid_16_columns":"*"
+		"bugbuster/contao_grid_16_columns":"*"
 	},
 	"extra":{
 		"branch-alias": {
