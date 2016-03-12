@@ -31,9 +31,6 @@
 			"BugBuster\\Grid16Bundle\\": "src/"
 		}
 	},
-	"replace":{
-		"bugbuster/contao_grid_16_columns":"*"
-	},
 	"extra":{
 		"branch-alias": {
 			"dev-develop": "1.0.x-dev"
