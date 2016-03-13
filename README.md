@@ -3,22 +3,44 @@
 Adds a responsive 16-column pixel/percental grid with 1120px/1140px
 in the layout css-framework of Contao 4.
 
-![Layout CSS-Framework](https://raw.github.com/BugBuster1701/contao-grid_16-bundle/develop/src/Resources/contao/wiki/layout-css-framework.jpg)
+[![Latest Stable Version](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/v/stable.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle) [![Total Downloads](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/downloads.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle) [![Latest Unstable Version](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/v/unstable.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle) [![License](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/license.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle)
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/6c0a602a-ae9a-4233-b8b1-e72ca187736e/small.png)](https://insight.sensiolabs.com/projects/6c0a602a-ae9a-4233-b8b1-e72ca187736e)
+
+![Layout CSS-Framework](https://raw.github.com/BugBuster1701/contao-grid_16-bundle/master/src/Resources/contao/wiki/layout-css-framework.jpg)
+
 
 **This Contao 4 extension is still in development.**
 
 
-## Installation
+## Installation (en)
+
+Installation in a Composer-based Contao 4.1 Installation
+
+`composer require "bugbuster/contao-grid_16-bundle:0.1.*"`
+
+Add in `app/AppKernel.php` following line at the end of the `$bundles` array.
+
+`new BugBuster\Grid16Bundle\BugBusterGrid16Bundle(),`
+
+Clear the cache and rebuild:
+
+`app/console cache:clear --env=prod`
+
+`app/console cache:warmup -e prod`
+
+
+## Installation (de)
 
 Installation in einer Composer-basierten Contao 4.1 Installation
 
 `composer require "bugbuster/contao-grid_16-bundle:0.1.*"`
 
-In app/AppKernel.php folgende Zeile am Ende des $bundles Arrays hinzufügen.
+In `app/AppKernel.php` folgende Zeile am Ende des `$bundles` Arrays hinzufügen.
 
 `new BugBuster\Grid16Bundle\BugBusterGrid16Bundle(),`
 
-Nun noch den Cache löschen und neu aufbauen:
+Nun den Cache löschen und neu aufbauen:
 
 `app/console cache:clear --env=prod`
 
