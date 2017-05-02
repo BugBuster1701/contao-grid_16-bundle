@@ -2,7 +2,7 @@
 	"name":"bugbuster/contao-grid_16-bundle",
 	"description":"Adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework for Contao 4.",
 	"keywords":["contao","grid","responsive"],
-	"type":"contao-module",
+	"type":"contao-bundle",
 	"homepage":"http://contao.ninja",
 	"license":"LGPL-3.0+",
 	"authors":[
@@ -19,12 +19,15 @@
 		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
 	},
 	"require":{
-		"php":">=5.4",
-		"contao/core-bundle": "~4.1",
+		"php": ">=5.5.0",
+		"contao/core-bundle": ">=4.3.8,<5.0",
 		"contao-community-alliance/composer-plugin": "~3.0"
 	},
+	"require-dev": {
+			"contao/manager-plugin": "^2.0"
+	},
 	"conflict": {
-		"contao/core": "*"
+			"contao/manager-plugin": "<2.0 || >=3.0"
 	},
 	"autoload":{
 		"psr-4": {
@@ -52,6 +55,7 @@
 				"languages_cto": "src/Resources/contao/languages",
 				"languages_tx": ".tx"
 			}
-		}
+		},
+		"contao-manager-plugin": "BugBuster\\Grid16Bundle\\ContaoManager\\Plugin"
 	}
 }

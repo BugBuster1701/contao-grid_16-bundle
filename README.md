@@ -13,38 +13,13 @@ in the layout css-framework of Contao 4.
 **This Contao 4 extension is still in development.**
 
 
-## Installation (en)
+## Installation
 
-Installation in a Composer-based Contao 4.1 Installation
+Installation Guide (EN): [INSTALLATION_EN.md](INSTALLATION_EN.md)
 
-`composer require "bugbuster/contao-grid_16-bundle:0.1.*"`
-
-Add in `app/AppKernel.php` following line at the end of the `$bundles` array.
-
-`new BugBuster\Grid16Bundle\BugBusterGrid16Bundle(),`
-
-Clear the cache and rebuild:
-
-`app/console cache:clear --env=prod`
-
-`app/console cache:warmup -e prod`
+Installationsanleitung (DE): [INSTALLATION_DE.md](INSTALLATION_DE.md)
 
 
-## Installation (de)
-
-Installation in einer Composer-basierten Contao 4.1 Installation
-
-`composer require "bugbuster/contao-grid_16-bundle:0.1.*"`
-
-In `app/AppKernel.php` folgende Zeile am Ende des `$bundles` Arrays hinzufügen.
-
-`new BugBuster\Grid16Bundle\BugBusterGrid16Bundle(),`
-
-Nun den Cache löschen und neu aufbauen:
-
-`app/console cache:clear --env=prod`
-
-`app/console cache:warmup -e prod`
 
 <!--
 ## remove alte develop4 version
