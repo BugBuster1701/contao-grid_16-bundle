@@ -27,5 +27,6 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'BugBuster\Grid1140\Grid1140Dca' => 'vendor/bugbuster/contao-grid_16-bundle/src/Resources/contao/classes/Grid1140Dca.php',
+	'BugBuster\Grid1140\Grid1140Dca'  => 'vendor/bugbuster/contao-grid_16-bundle/src/Resources/contao/classes/Grid1140Dca.php',
+    'BugBuster\Grid1140\Grid16Layout' => 'vendor/bugbuster/contao-grid_16-bundle/src/Resources/contao/classes/Grid16Layout.php',
 ));

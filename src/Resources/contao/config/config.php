@@ -12,3 +12,5 @@
  */
 
 $GLOBALS['TL_HOOKS']['loadDataContainer'][] = array('Grid1140\Grid1140Dca', 'loadDataContainerGrid1140');
+
+$GLOBALS['TL_HOOKS']['getPageLayout'][] = array('Grid1140\Grid16Layout', 'addGrid16CSS');
