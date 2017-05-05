@@ -45,7 +45,7 @@ class Grid16Layout extends \PageRegular
         {
             foreach ($arrFrameworkGrid16 as $strFile)
             {
-                $GLOBALS['TL_HEAD'][] = 'bundles/bugbustergrid16/' . basename($strFile, '.css') . '.min.css';
+                $GLOBALS['TL_HEAD'][] = '<link rel="stylesheet" href="bundles/bugbustergrid16/' . basename($strFile, '.css') . '.min.css">';
             }
         }
         
