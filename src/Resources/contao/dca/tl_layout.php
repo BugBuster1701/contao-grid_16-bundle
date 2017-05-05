@@ -7,7 +7,7 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['frameworkGrid16'] = array
 (
     'label'                   => &$GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16'],
     'exclude'                 => true,
-    'inputType'               => 'checkboxWizard',
+    'inputType'               => 'checkbox',//'checkboxWizard',
     'options'                 => array('grid-1140-16-percent.css', 'grid-1140-16-percent-responsive.css', 'grid-1120-16-pixel.css', 'grid-1120-16-pixel-responsive.css'),
     'eval'                    => array('multiple'=>true, 'helpwizard'=>true),
     'reference'               => &$GLOBALS['TL_LANG']['tl_layout'],
