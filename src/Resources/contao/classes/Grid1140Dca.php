@@ -71,7 +71,7 @@ class Grid1140Dca extends \BackendModule
     		//array_push($GLOBALS['TL_DCA']['tl_layout']['fields']['framework']['options'], 'grid-1140-16-percent.css', 'grid-1140-16-percent-responsive.css', 'grid-1120-16-pixel.css', 'grid-1120-16-pixel-responsive.css');
     		
     	    //	$GLOBALS['TL_DCA']['tl_module']['palettes']['eventreader'] = str_replace('{protected_legend:hide}', '{comment_legend:hide},com_template;{protected_legend:hide}', $GLOBALS['TL_DCA']['tl_module']['palettes']['eventreader']);
-    	    $GLOBALS['TL_DCA']['tl_layout']['palettes']['default'] = str_replace('loadingOrder', 'loadingOrder;frameworkGrid16,loadingOrderGrid16', $GLOBALS['TL_DCA']['tl_layout']['palettes']['default']);
+    	    $GLOBALS['TL_DCA']['tl_layout']['palettes']['default'] = str_replace('combineScripts', 'combineScripts;frameworkGrid16,loadingOrderGrid16', $GLOBALS['TL_DCA']['tl_layout']['palettes']['default']);
     	    
     	}
     }
