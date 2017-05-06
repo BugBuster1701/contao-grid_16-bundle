@@ -8,8 +8,10 @@ There are two types of installation.
 
 ## Installation with Contao-Manager
 
-* search for package: `bugbuster/contao-grid_16-bundle`
-* install the package
+* Search for package: `bugbuster/contao-grid_16-bundle`
+* Install the package
+* Click on "Install Tool" 
+* Login and update the database
 
 
 ## Installation via command line
@@ -19,6 +21,8 @@ There are two types of installation.
 Installation in a Composer-based Contao 4.3+ Managed-Edition:
 
 * `composer require "bugbuster/contao-grid_16-bundle"`
+* Call http://yourdomain/contao/install
+* Login and update the database
 
 
 ### Installation for Contao Standard-Edition
@@ -31,8 +35,9 @@ Add in `app/AppKernel.php` following line at the end of the `$bundles` array.
 
 `new BugBuster\Grid16Bundle\BugBusterGrid16Bundle(),`
 
-Clears the cache and warms up an empty cache:
+Clears the cache:
 
 * `vendor/bin/contao-console cache:clear --env=prod`
-* `vendor/bin/contao-console cache:warmup -e prod`
 
+* Call http://yourdomain/contao/install
+* Login and update the database
