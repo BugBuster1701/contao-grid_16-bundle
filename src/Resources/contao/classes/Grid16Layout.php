@@ -22,15 +22,17 @@ namespace BugBuster\Grid1140;
  * Class Grid16Layout for Hook getPageLayout
  * 
  * @author     Glen Langer (BugBuster)
- *
  */
 class Grid16Layout extends \PageRegular  
 {
 	 
     
     /**
-     * Hook loadDataContainer
-     * @param string $strName    dca
+     * Hook loadDataContainer, add Grid16 CSS
+     * 
+     * @param PageModel   $objPage
+	 * @param LayoutModel $objLayout
+	 * @param PageRegular $objPageRegular
      */
     public function addGrid16CSS(\PageModel $objPage, \LayoutModel $objLayout, \PageRegular $objPageRegular)
     {
