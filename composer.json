@@ -20,8 +20,7 @@
 	},
 	"require":{
 		"php": ">=5.5.0",
-		"contao/core-bundle": ">=4.3.8,<5.0",
-		"contao-community-alliance/composer-plugin": "~3.0"
+		"contao/core-bundle": ">=4.3.8,<5.0"
 	},
 	"require-dev": {
 			"contao/manager-plugin": "^2.0"
@@ -32,23 +31,22 @@
 	"autoload":{
 		"psr-4": {
 			"BugBuster\\Grid16Bundle\\": "src/"
-		}
+		},
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config/",
+            "src/Resources/contao/dca/",
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/wiki/"
+        ]
 	},
 	"extra":{
 		"branch-alias": {
 			"dev-develop": "1.0.x-dev"
 		},
 		"contao":{
-			"sources":{
-				"assets/contao/css/grid-1120-16-pixel-responsive.css": "assets/contao/css/grid-1120-16-pixel-responsive.css",
-				"assets/contao/css/grid-1120-16-pixel-responsive.min.css": "assets/contao/css/grid-1120-16-pixel-responsive.min.css",
-				"assets/contao/css/grid-1120-16-pixel.css": "assets/contao/css/grid-1120-16-pixel.css",
-				"assets/contao/css/grid-1120-16-pixel.min.css": "assets/contao/css/grid-1120-16-pixel.min.css",
-				"assets/contao/css/grid-1140-16-percent-responsive.css": "assets/contao/css/grid-1140-16-percent-responsive.css",
-				"assets/contao/css/grid-1140-16-percent-responsive.min.css": "assets/contao/css/grid-1140-16-percent-responsive.min.css",
-				"assets/contao/css/grid-1140-16-percent.css": "assets/contao/css/grid-1140-16-percent.css",
-				"assets/contao/css/grid-1140-16-percent.min.css": "assets/contao/css/grid-1140-16-percent.min.css"
-			},
 			"transifex": {
 				"project": "contao-4-grid-16-columns-bundle",
 				"prefix": "master-",
