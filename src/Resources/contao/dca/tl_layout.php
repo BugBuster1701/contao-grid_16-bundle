@@ -1,6 +1,5 @@
 <?php
 
-//$GLOBALS['TL_DCA']['tl_layout']['palettes']['default'] .= ';frameworkGrid16,loadingOrderGrid16';
 //wird per Hook eingebuden
 
 $GLOBALS['TL_DCA']['tl_layout']['fields']['frameworkGrid16'] = array
@@ -19,7 +18,7 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['loadingOrderGrid16'] = array
 		'default'                 => 'external_first',
 		'exclude'                 => true,
 		'inputType'               => 'select',
-		'options'                 => array('external_first', 'internal_first'),
+		'options'                 => array('after_internal', 'before_framework'),
 		'reference'               => &$GLOBALS['TL_LANG']['tl_layout'],
 		'eval'                    => array('tl_class'=>'w50'),
 		'sql'                     => "varchar(16) NOT NULL default ''"

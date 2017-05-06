@@ -1,9 +1,9 @@
 <?php  
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2015 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2017 Leo Feyer
  *
- * @copyright  Glen Langer 2012..2016 <http://contao.ninja>
+ * @copyright  Glen Langer 2012..2017 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    contao-grid_16-bundle
  * @license    LGPL
@@ -17,9 +17,11 @@
  */
 namespace BugBuster\Grid1140; 
  
+
 /**
  * Class Grid16Layout for Hook getPageLayout
- * @author Data
+ * 
+ * @author     Glen Langer (BugBuster)
  *
  */
 class Grid16Layout extends \PageRegular  
@@ -34,32 +36,31 @@ class Grid16Layout extends \PageRegular
     {
         /*
          * vor internen laden
-         * $GLOBALS['TL_CSS'][] = 'assets/contao-grid16/css/grid-1120-16-pixel.min.css';
+         * $GLOBALS['TL_CSS'][]  = 'assets/contao-grid16/css/grid-1120-16-pixel.min.css';
          * nach den anderen
-         * $GLOBALS['TL_HEAD']
+         * $GLOBALS['TL_HEAD'][] = '<link ...>';
          */      
         
         $arrFrameworkGrid16 = \StringUtil::deserialize($objLayout->frameworkGrid16);
+        
         // Add the Grid16 CSS framework style sheets
         if (is_array($arrFrameworkGrid16))
         {
             foreach ($arrFrameworkGrid16 as $strFile)
             {
-                $GLOBALS['TL_HEAD'][] = '<link rel="stylesheet" href="bundles/bugbustergrid16/' . basename($strFile, '.css') . '.min.css">';
+                if ($objLayout->loadingOrderGrid16 == 'before_framework') 
+                {
+                    $GLOBALS['TL_CSS'][] = 'bundles/bugbustergrid16/' . basename($strFile, '.css') . '.min.css';
+                }
+                else 
+                {
+                    $GLOBALS['TL_HEAD'][] = '<link rel="stylesheet" href="bundles/bugbustergrid16/' . basename($strFile, '.css') . '.min.css">';
+                }
+                
             }
         }
         
-    	//log_message(print_r($objLayout->framework,true),'grid16.log');
-        //log_message(print_r($objLayout->getRelated('pid'),true),'grid16.log');
-
-        /* geht nicht, da aus framework immer nur der basename genommen wird
-         * in PageRegular::createHeaderScripts
-            $arrValues = \StringUtil::deserialize($objLayout->frameworkGrid16, true);
-            $arrValues[] = 'assets/contao-grid16/css/grid-1120-16-pixel.min.css';
-            $objLayout->framework = serialize($arrValues);
-        */
-        log_message(print_r($objLayout->frameworkGrid16,true),'grid16.log');
-        return $objLayout;
+        return;
     }
 
 }

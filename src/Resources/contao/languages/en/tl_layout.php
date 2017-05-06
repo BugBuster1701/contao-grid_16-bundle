@@ -21,3 +21,10 @@ $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive.css']['1'] = '
 $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent.css']['0']            = '16-column grid, percent, 1140px';
 $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent.css']['1']            = 'Adds a 16-column percental grid with 1140px, that is triggered by the CSS classes "grid1" to "grid16" and "offset1" to "offset15".';
 
+$GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16'][0]      = 'Grid16 CSS framework';
+$GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16'][1]      = 'Here you can activate the components of the Grid16 CSS framework.';
+$GLOBALS['TL_LANG']['tl_layout']['loadingOrderGrid16'][0]   = 'Loading order';
+$GLOBALS['TL_LANG']['tl_layout']['loadingOrderGrid16'][1]   = 'Here you can select the loading order of the style sheets.';
+$GLOBALS['TL_LANG']['tl_layout']['after_internal']          = 'Load Grid16 CSS after internal style sheets.';
+$GLOBALS['TL_LANG']['tl_layout']['before_framework']        = 'Load Grid16 CSS before Contao CSS framework.';
+
