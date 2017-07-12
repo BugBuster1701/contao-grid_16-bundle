@@ -1,7 +1,7 @@
 {
 	"name":"bugbuster/contao-grid_16-bundle",
-	"description":"Adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework for Contao 4.",
-	"keywords":["contao","grid","responsive"],
+	"description":"Contao 4 grid16 bundle, adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework for Contao 4.",
+	"keywords":["contao","grid","responsive","css"],
 	"type":"contao-bundle",
 	"homepage":"http://contao.ninja",
 	"license":"LGPL-3.0+",
@@ -44,7 +44,7 @@
 	},
 	"extra":{
 		"branch-alias": {
-			"dev-develop": "1.0.x-dev"
+			"dev-develop": "1.1.x-dev"
 		},
 		"contao":{
 			"transifex": {
