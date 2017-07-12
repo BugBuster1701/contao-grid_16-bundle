@@ -4,14 +4,17 @@
  * or to help to maintain an existing one, please register at transifex.com.
  *
  * @link http://help.transifex.com/intro/translating.html
- * @link https://www.transifex.com/projects/p/contao-grid_16_columns/language/ru/
+ * @link https://www.transifex.com/projects/p/contao-4-grid-16-columns-bundle/language/ru/
  *
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
- * last-updated: 2015-05-06T01:11:54+02:00
+ * last-updated: 2017-05-07T01:33:44+02:00
  */
 
-
+$GLOBALS['TL_LANG']['tl_layout']['after_internal']                           = 'Загружать Grid16 CSS после внутренних таблиц стилей.';
+$GLOBALS['TL_LANG']['tl_layout']['before_framework']                         = 'Загружать Grid16 CSS перед CSS-фреймворком Contao.';
+$GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16']['0']                     = 'CSS-фреймворк Grid16';
+$GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16']['1']                     = 'Вы можете активировать CSS-фреймворк Grid16.';
 $GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel-responsive.css']['0']   = '16-колоночная сетка, пиксель, 1120px, отзывчивая часть';
 $GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel-responsive.css']['1']   = 'Отзывчивая часть для 16-колоночной сетки, процент, 1120px';
 $GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel.css']['0']              = '16-колоночная сетка, пиксель, 1120px';
@@ -20,4 +23,6 @@ $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive.css']['0'] = '
 $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive.css']['1'] = 'Отзывчивая часть для 16-колоночной сетки, процент, 1140px';
 $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent.css']['0']            = '16-колоночная сетка, процент, 1140px';
 $GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent.css']['1']            = 'Добавляет 16-колоночную процентную сетку в 1140px, которая срабатывает как CSS классы "grid1" до "grid16" и "offset1" до "offset15".';
+$GLOBALS['TL_LANG']['tl_layout']['loadingOrderGrid16']['0']                  = 'Порядок загрузки';
+$GLOBALS['TL_LANG']['tl_layout']['loadingOrderGrid16']['1']                  = 'Вы можете выбрать порядок загрузки таблиц стилей.';
 
