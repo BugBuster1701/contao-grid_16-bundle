@@ -1,7 +1,6 @@
-# Contao 4.3+ Module, Grid-16-Columns
+# Contao 4 Grid-16-Columns Bundle
 
-Adds a responsive 16-column pixel/percental grid with 1120px/1140px
-in the layout css-framework of Contao 4.
+Adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework of Contao 4.
 
 [![Latest Stable Version](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/v/stable.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle) [![Total Downloads](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/downloads.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle) [![Latest Unstable Version](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/v/unstable.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle) [![License](https://poser.pugx.org/bugbuster/contao-grid_16-bundle/license.svg)](https://packagist.org/packages/bugbuster/contao-grid_16-bundle)
 
