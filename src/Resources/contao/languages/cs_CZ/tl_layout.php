@@ -16,14 +16,14 @@ $GLOBALS['TL_LANG']['tl_layout']['after_internal']                              
 $GLOBALS['TL_LANG']['tl_layout']['before_framework']                            = 'Načíst soubor s 16-sloupcovou mřížkou před vnitřními styly.';
 $GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16']['0']                        = 'Framework 16-sloupcové mřížky';
 $GLOBALS['TL_LANG']['tl_layout']['frameworkGrid16']['1']                        = 'Tady můžete aktivovat součásti tříd CSS 16-sloupcové mřížky';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel-responsive']['css']['0']   = '16-sloupcová mřížka, v bodech, 1120px, responzivní část';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel-responsive']['css']['1']   = 'Responzivní část 16-sloupcové mřížky, v bodech, 1120px';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel']['css']['0']              = '16-sloupcová mřížka, v bodech, 1120px';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel']['css']['1']              = 'Přidá 16-sloupcovou mřížku v bodech o velikosti 1120px, kterou lze ovládat pomocí tříd CSS "grid1" až "grid16" a "offset1" až "offset15".';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive']['css']['0'] = '16-sloupcová mřížka, v procentech, 1140px, responzivní část';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive']['css']['1'] = 'Responzivní část 16-sloupcové mřížky, v procentech, 1140px';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent']['css']['0']            = '16-sloupcová mřížka, v procentech, 1140px';
-$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent']['css']['1']            = 'Přidá 16-sloupcovou mřížku v procentech o velikosti 1140px, kterou lze ovládat pomocí tříd CSS "grid1" až "grid16" a "offset1" až "offset15".';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel-responsive.css']['0']   = '16-sloupcová mřížka, v bodech, 1120px, responzivní část';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel-responsive.css']['1']   = 'Responzivní část 16-sloupcové mřížky, v bodech, 1120px';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel.css']['0']              = '16-sloupcová mřížka, v bodech, 1120px';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1120-16-pixel.css']['1']              = 'Přidá 16-sloupcovou mřížku v bodech o velikosti 1120px, kterou lze ovládat pomocí tříd CSS "grid1" až "grid16" a "offset1" až "offset15".';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive.css']['0'] = '16-sloupcová mřížka, v procentech, 1140px, responzivní část';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent-responsive.css']['1'] = 'Responzivní část 16-sloupcové mřížky, v procentech, 1140px';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent.css']['0']            = '16-sloupcová mřížka, v procentech, 1140px';
+$GLOBALS['TL_LANG']['tl_layout']['grid-1140-16-percent.css']['1']            = 'Přidá 16-sloupcovou mřížku v procentech o velikosti 1140px, kterou lze ovládat pomocí tříd CSS "grid1" až "grid16" a "offset1" až "offset15".';
 $GLOBALS['TL_LANG']['tl_layout']['loadingOrderGrid16']['0']                     = 'Pořadí načítání';
 $GLOBALS['TL_LANG']['tl_layout']['loadingOrderGrid16']['1']                     = 'Zde můžete zvolit pořadí, jakým budou načteny soubory CSS';
 
