@@ -3,3 +3,5 @@
 .settings/
 # Transifex
 /.tx/
+vendor/
+composer.lock

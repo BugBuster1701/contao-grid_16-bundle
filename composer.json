@@ -1,6 +1,6 @@
 {
 	"name":"bugbuster/contao-grid_16-bundle",
-	"description":"Contao 4 grid16 bundle, adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework for Contao 4.",
+	"description":"Contao 5 grid16 bundle, adds a responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework for Contao 5.",
 	"keywords":["contao","grid","responsive","css"],
 	"type":"contao-bundle",
 	"homepage":"http://contao.ninja",
@@ -14,13 +14,12 @@
 	],
 	"support":{
 		"issues":"https://github.com/BugBuster1701/contao-grid_16-bundle/issues",
-		"irc":"irc://irc.freenode.org/contao.dev",
 		"source":"https://github.com/BugBuster1701/contao-grid_16-bundle",
 		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
 	},
 	"require":{
-		"php": "^7.2 || ^8.0",
-		"contao/core-bundle": ">=4.4.0,<5.0"
+		"php": "^8.2",
+		"contao/core-bundle": ">=5.3.0,<5.4.0"
 	},
 	"require-dev": {
 			"contao/manager-plugin": "^2.0"
@@ -43,9 +42,6 @@
         ]
 	},
 	"extra":{
-		"branch-alias": {
-			"dev-develop": "1.2.x-dev"
-		},
 		"contao":{
 			"transifex": {
 				"project": "contao-4-grid-16-columns-bundle",
@@ -55,5 +51,11 @@
 			}
 		},
 		"contao-manager-plugin": "BugBuster\\Grid16Bundle\\ContaoManager\\Plugin"
+	},
+	"config": {
+		"allow-plugins": {
+			"contao-components/installer": true,
+			"contao/manager-plugin": true
+		}
 	}
 }
