@@ -22,7 +22,7 @@ namespace BugBuster\Grid1140;
  * @author Data
  *
  */
-class Grid1140Dca extends \BackendModule 
+class Grid1140Dca extends \Contao\BackendModule 
 {
 	 /**
     * Current object instance
@@ -35,7 +35,7 @@ class Grid1140Dca extends \BackendModule
      */
     public function __construct()
     {
-        $this->import('BackendUser', 'User');
+        //$this->import('BackendUser', 'User');
         parent::__construct();
     }
     
