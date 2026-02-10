@@ -1,9 +1,7 @@
 <?php  
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2017 Leo Feyer
- *
- * @copyright  Glen Langer 2012..2017 <http://contao.ninja>
+ * @copyright  Glen Langer 2012..2026 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    contao-grid_16-bundle
  * @license    LGPL
