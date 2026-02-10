@@ -1,9 +1,7 @@
 <?php  
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2017 Leo Feyer
- *
- * @copyright  Glen Langer 2012..2017 <http://contao.ninja>
+ * @copyright  Glen Langer 2012..2026 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    contao-grid_16-bundle
  * @license    LGPL
@@ -23,7 +21,7 @@ namespace BugBuster\Grid1140;
  * 
  * @author     Glen Langer (BugBuster)
  */
-class Grid16Layout extends \PageRegular  
+class Grid16Layout extends \Contao\PageRegular  
 {
 	 
     
@@ -34,7 +32,7 @@ class Grid16Layout extends \PageRegular
 	 * @param LayoutModel $objLayout
 	 * @param PageRegular $objPageRegular
      */
-    public function addGrid16CSS(\PageModel $objPage, \LayoutModel $objLayout, \PageRegular $objPageRegular)
+    public function addGrid16CSS(\Contao\PageModel $objPage, \Contao\LayoutModel $objLayout, \Contao\PageRegular $objPageRegular)
     {
         /*
          * vor internen laden
@@ -43,7 +41,7 @@ class Grid16Layout extends \PageRegular
          * $GLOBALS['TL_HEAD'][] = '<link ...>';
          */      
         
-        $arrFrameworkGrid16 = \StringUtil::deserialize($objLayout->frameworkGrid16);
+        $arrFrameworkGrid16 = \Contao\StringUtil::deserialize($objLayout->frameworkGrid16);
         
         // Add the Grid16 CSS framework style sheets
         if (is_array($arrFrameworkGrid16))

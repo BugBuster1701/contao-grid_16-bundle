@@ -1,9 +1,7 @@
 <?php  
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2015 Leo Feyer
- *
- * @copyright  Glen Langer 2012..2016 <http://contao.ninja>
+ * @copyright  Glen Langer 2012..2026 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    contao-grid_16-bundle
  * @license    LGPL
@@ -22,7 +20,7 @@ namespace BugBuster\Grid1140;
  * @author Data
  *
  */
-class Grid1140Dca extends \BackendModule 
+class Grid1140Dca extends \Contao\BackendModule 
 {
 	 /**
     * Current object instance
@@ -35,7 +33,7 @@ class Grid1140Dca extends \BackendModule
      */
     public function __construct()
     {
-        $this->import('BackendUser', 'User');
+        //$this->import('BackendUser', 'User');
         parent::__construct();
     }
     
