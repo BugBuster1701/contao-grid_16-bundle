@@ -23,7 +23,7 @@ namespace BugBuster\Grid1140;
  * 
  * @author     Glen Langer (BugBuster)
  */
-class Grid16Layout extends \PageRegular  
+class Grid16Layout extends \Contao\PageRegular  
 {
 	 
     
@@ -34,7 +34,7 @@ class Grid16Layout extends \PageRegular
 	 * @param LayoutModel $objLayout
 	 * @param PageRegular $objPageRegular
      */
-    public function addGrid16CSS(\PageModel $objPage, \LayoutModel $objLayout, \PageRegular $objPageRegular)
+    public function addGrid16CSS(\Contao\PageModel $objPage, \Contao\LayoutModel $objLayout, \Contao\PageRegular $objPageRegular)
     {
         /*
          * vor internen laden
@@ -43,7 +43,7 @@ class Grid16Layout extends \PageRegular
          * $GLOBALS['TL_HEAD'][] = '<link ...>';
          */      
         
-        $arrFrameworkGrid16 = \StringUtil::deserialize($objLayout->frameworkGrid16);
+        $arrFrameworkGrid16 = \Contao\StringUtil::deserialize($objLayout->frameworkGrid16);
         
         // Add the Grid16 CSS framework style sheets
         if (is_array($arrFrameworkGrid16))
