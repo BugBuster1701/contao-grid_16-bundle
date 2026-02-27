@@ -18,8 +18,8 @@
 		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
 	},
 	"require":{
-		"php": "^8.2",
-		"contao/core-bundle": ">=5.3.0,<5.4.0"
+		"php": "^8.3",
+		"contao/core-bundle": ">=5.6.0,<5.8.0"
 	},
 	"require-dev": {
 			"contao/manager-plugin": "^2.0"
@@ -55,7 +55,8 @@
 	"config": {
 		"allow-plugins": {
 			"contao-components/installer": true,
-			"contao/manager-plugin": true
+			"contao/manager-plugin": true,
+			"php-http/discovery": true
 		}
 	}
 }
