@@ -5,3 +5,5 @@
 /.tx/
 vendor/
 composer.lock
+node_modules/
+package-lock.json

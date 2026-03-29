@@ -1,0 +1,25 @@
+{
+  "name": "grid-16-bundle-cli",
+  "private": true,
+  "dependencies": {
+    "cssnano": "^7.0.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^11.0.0"
+  },
+  "scripts": {
+      "minify": "for f in ./src/Resources/public/*.css; do postcss \"$f\" -o \"${f%.css}.min.css\"; done"
+  },
+  "repository": "cssnano/cssnano",
+  "homepage": "https://github.com/cssnano/cssnano",
+  "bugs": {
+    "url": "https://github.com/cssnano/cssnano/issues"
+  },
+  "engines": {
+    "node": "^18 || ^20 || >=22.0"
+  },
+  "license": "LGPL-3 or later",
+  "author": {
+    "name": "Glen Langer"
+  },
+  "version": "1.0.0"
+}

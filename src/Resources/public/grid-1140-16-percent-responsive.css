@@ -12,14 +12,14 @@
  * Reduce the overall width and the width of the grid columns if the screen
  * width is less than 1160px
  */
-@media (min-width:980px) and (max-width:1160px)
-{
-	/**
+@media (min-width:980px) and (max-width:1160px) {
+
+    /**
 	 * Reduce the overall width
 	 */
-	#wrapper {
-		width:960px;
-	}
+    #wrapper {
+        width: 960px;
+    }
 
 }
 
@@ -27,14 +27,14 @@
  * Reduce the overall width and the width of the grid columns if the screen
  * width is less than 980px (e.g. on a portrait tablet)
  */
-@media (min-width:768px) and (max-width:979px)
-{
-	/**
+@media (min-width:768px) and (max-width:979px) {
+
+    /**
 	 * Reduce the overall width
 	 */
-	#wrapper {
-		width:768px;
-	}
+    #wrapper {
+        width: 768px;
+    }
 
 }
 
@@ -42,29 +42,29 @@
  * Remove all floats and fixed widths if the screen width is less than 768
  * pixel (e.g. on a mobile phone)
  */
-@media (max-width:767px)
-{
-	/**
+@media (max-width:767px) {
+
+    /**
 	 * Remove the overall width
 	 */
-	#wrapper {
-		width:auto;
-	}
+    #wrapper {
+        width: auto;
+    }
 
-	/**
+    /**
 	 * Show all columns underneath each other
 	 * #3, #5
 	 */
-	*[class*="grid"] {
-		float:none !important;
-		display:block !important;
-		width:auto !important;
-	}
-	
-	/**
+    *[class*="grid"] {
+        float: none !important;
+        display: block !important;
+        width: auto !important;
+    }
+
+    /**
 	 * Reduce the offset widths
 	 */
-	*[class*="offset"] {
-		margin-left:1% !important;
-	}
+    *[class*="offset"] {
+        margin-left: 1% !important;
+    }
 }
